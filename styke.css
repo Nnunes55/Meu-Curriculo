@@ -1,0 +1,30 @@
+body{
+    background: rgb(64, 177, 230);
+}
+
+img{
+    border-radius: 60px;
+    height: 400px;
+    left: 1280px;
+    position: fixed;
+    margin-top: 75px;
+    border-style: ridge;
+    border-color: blue;   
+    width: 15%;
+    top: 15px;
+
+}
+
+h1{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.textoApresentacao{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+}
+
