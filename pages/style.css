@@ -59,15 +59,10 @@ body {
   flex-direction: column;
 }
 
-.subDiv-1{
-  background-color: red;
-  position: relative;
-  right: 270px;
-}
-
-.subDiv-2{
-  background-color: blue;
-  position: relative;
-  left: 600px;
-  bottom: 124px;
+.subDiv-1, .subDiv-2{
+  
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-left: 300px;
 }
