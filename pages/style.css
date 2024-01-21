@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 
-img {
+.picture1 {
   border-radius: 100%;
   height: 400px;
   position: absolute;
@@ -21,6 +21,11 @@ img {
   border-radius: 50%;
   top: 5%;
   left: 75%;
+
+}
+
+.picture2{
+  height: 400px;
 }
 
 .barraLateral {
