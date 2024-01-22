@@ -11,22 +11,31 @@ body {
 
 .picture1 {
   border-radius: 100%;
-  height: 400px;
+  height: 250px;
   position: absolute;
   margin-top: 75px;
   border-style: ridge;
   border-color: blue;
   width: 15%;
-  transition: all 5s ease-in-out;
+  transition: all 3s ease-in-out;
   border-radius: 50%;
   top: 5%;
   left: 75%;
-
 }
 
-.picture2{
+.picture2 {
   height: 400px;
   border-radius: 15px;
+}
+
+.picture3 {
+  height: 90px;
+  border-radius: 50px;
+}
+
+.picture4{
+  height: 90px;
+  border-radius: 50px;
 }
 
 .barraLateral {
@@ -59,10 +68,11 @@ body {
   flex-direction: column;
 }
 
-.subDiv-1, .subDiv-2{
-  
+.subDiv-1,
+.subDiv-2 {
   display: flex;
   width: 80%;
   justify-content: center;
   margin-left: 300px;
+  
 }
