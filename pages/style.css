@@ -33,7 +33,12 @@ body {
   border-radius: 50px;
 }
 
-.picture4{
+.picture4 {
+  height: 90px;
+  border-radius: 50px;
+}
+
+.picture5 {
   height: 90px;
   border-radius: 50px;
 }
@@ -68,11 +73,32 @@ body {
   flex-direction: column;
 }
 
+.div-8{
+  position: relative;
+  right: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .subDiv-1,
-.subDiv-2 {
+.subDiv-2,
+.subDiv-3 {
   display: flex;
   width: 80%;
   justify-content: center;
   margin-left: 300px;
-  
+}
+
+.subDiv-2 {
+  height: 10px;
+  width: 10px;
+}
+
+.para1 {
+  text-align: start;
+  margin-left: 15px;
+}
+
+.para2 {
+  text-align: start;
+  margin-left: 15px;
 }
